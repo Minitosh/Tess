@@ -2,9 +2,10 @@ package main
 
 import (
 	"Tess/drive"
+	"Tess/gmail"
 )
 
 func main() {
-	// gmail.GetFromGmail()
+	gmail.GetFromGmail()
 	drive.SendToDrive()
 }
